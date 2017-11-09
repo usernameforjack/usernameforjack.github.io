@@ -5,3 +5,48 @@
   background: lightblue; 
   font-size: 300%;
 }
+h1 {
+  color: rgba(92, 184, 93, 1);
+  text-shadow: -1px 0 #000000,0 1px #000000,1px 0 #000000,0 -1px #000000;
+  text-align: center;
+  font-size: 300%;
+}
+
+.reftable {
+  border: solid black 1px;
+  border-collapse: collapse;
+}
+
+
+th {
+  background: lightblue;
+  border: solid black 1px;
+}
+
+.example {
+  background-image: url("https://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg");
+  width: 500px;
+  border: 25px solid rgba(140, 212, 154, .5);
+  padding: 15px;
+  margin: 10px;
+}
+
+body {
+  background-image: url("https://www.pixeden.com/media/k2/galleries/165/001-subtle-light-pattern-background-texture-vol5.jpg");
+  font-size: 120%;
+  font-family: Verdana;
+}
+
+.element {
+  background: rgba(140, 212, 154, .5);
+  padding: 10px;
+  border: solid rgba(0, 0, 0, .3) 1px;
+}
+
+.DSE {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
