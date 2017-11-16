@@ -1,1 +1,18 @@
+.content {
+  background-color:#f7e6ff;
+}
 
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+}
+
+h1 {
+  font-family: serif;
+  color: white;
+  font-size: 300%;
+}
+
+p {
+  
+}
