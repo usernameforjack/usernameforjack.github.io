@@ -1,34 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-    background-image: url("http://avante.biz/wp-content/uploads/Background-Images-For-Websites/Background-Images-For-Websites-022.jpg");
-    padding: 20px;
-    text-align: center;
-}
-
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 /* Change color on hover */
 .topnav a:hover:not(.active) {
     background-color: #ddd;
@@ -37,7 +6,7 @@ body {
 
 /* indicate active page on nav */
 .active {
-    background-color: #4CAF50;
+    background-color: darkviolet;
 }
 
 /* A - Create three unequal columns that floats next to each other */
@@ -49,6 +18,11 @@ body {
 /* Left column */
 .column.left {
     width: 50%;
+}
+
+.column.left img {
+ width: 300px;
+ height: 200px;
 }
 
 /* right column */
