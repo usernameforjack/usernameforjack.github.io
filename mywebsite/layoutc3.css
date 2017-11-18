@@ -58,7 +58,8 @@ body {
 
 .img2 {
   width: 80%;
-  max-height: 750px;
+  height: 100%;
+  max-height: 900px;
 }
 
 .img3 {
@@ -100,9 +101,6 @@ body {
 .automargin {
   padding: 20px;
 }
-
-
-
 
 
 
